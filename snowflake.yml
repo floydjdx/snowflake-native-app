@@ -3,6 +3,8 @@ native_app:
    name: hello_snowflake
    source_stage: stage_content.hello_snowflake_stage
    artifacts:
+      - streamlit/hello_snowflake.py
+      - python/hello_python.py
       - src: app/*
         dest: ./
    package:
